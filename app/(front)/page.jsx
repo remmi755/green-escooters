@@ -68,38 +68,38 @@ export default function Home() {
         </section>
       </div>
 
-      <div ref={ref}>
-        <motion.div
-          className="mb-12 my-[95px] md:my-[100px] lg:my-[200px]"
-          animate={animation}
-        >
-          <section className=" flex justify-center items-center">
-            <div className="max-w-[1440px] mx-auto p-8 bg-[#f4eff1] border-transparent">
-              <ProductInfo
-                mainTitle="Jeep ADVENTURER electric scooter"
-                description="Designed to ride with ease on different types of roads, it lets you enjoy the freedom of moving nimbly and avoid getting stuck in traffic. It is equipped with front and rear suspensions for increased riding comfort and resistance."
-                price="799,00"
-                stockQuantity="26"
-                productCategory="urban mobility"
-                CTALink="https://green-escooters.vercel.app/thanks"
-                SKU="ADV-258-238ZS"
-                img1="/images/adventurer-1.jpeg"
-                imgAlt1="ADVENTURER 1"
-                img2="/images/adventurer-2.jpeg"
-                imgAlt2="ADVENTURER 2"
-                img3="/images/adventurer-3.jpeg"
-                imgAlt3="ADVENTURER 3"
-                img4="/images/adventurer-4.jpeg"
-                imgAlt4="ADVENTURER 4"
-                img5="/images/adventurer-5.jpeg"
-                imgAlt5="ADVENTURER 5"
-                img6="/images/adventurer-6.jpeg"
-                imgAlt6="ADVENTURER 6"
-              />
-            </div>
-          </section>
-        </motion.div>
-      </div>
+      {/*<div ref={ref}>*/}
+      {/*  <motion.div*/}
+      {/*    className="mb-12 my-[95px] md:my-[100px] lg:my-[200px]"*/}
+      {/*    animate={animation}*/}
+      {/*  >*/}
+      <section className=" flex justify-center items-center">
+        <div className="max-w-[1440px] mx-auto p-8 bg-[#f4eff1] border-transparent">
+          <ProductInfo
+            mainTitle="Jeep ADVENTURER electric scooter"
+            description="Designed to ride with ease on different types of roads, it lets you enjoy the freedom of moving nimbly and avoid getting stuck in traffic. It is equipped with front and rear suspensions for increased riding comfort and resistance."
+            price="799,00"
+            stockQuantity="26"
+            productCategory="urban mobility"
+            CTALink="https://green-escooters.vercel.app/thanks"
+            SKU="ADV-258-238ZS"
+            img1="/images/adventurer-1.jpeg"
+            imgAlt1="ADVENTURER 1"
+            img2="/images/adventurer-2.jpeg"
+            imgAlt2="ADVENTURER 2"
+            img3="/images/adventurer-3.jpeg"
+            imgAlt3="ADVENTURER 3"
+            img4="/images/adventurer-4.jpeg"
+            imgAlt4="ADVENTURER 4"
+            img5="/images/adventurer-5.jpeg"
+            imgAlt5="ADVENTURER 5"
+            img6="/images/adventurer-6.jpeg"
+            imgAlt6="ADVENTURER 6"
+          />
+        </div>
+      </section>
+      {/*  </motion.div>*/}
+      {/*</div>*/}
 
       <div className="mt-[95px] md:mt-[100px] lg:mt-[200px]">
         <section className="flex justify-center items-center">
@@ -133,11 +133,7 @@ export default function Home() {
         <div className="max-w-[1440px] mx-auto">
           <div className="flex flex-col md:flex-row justify-center items-center w-full h-full">
             <div className="w-full md:w-[50%] h-[200px] lg:h-[300px] relative">
-              <Image
-                src="https://www.jeepurbanemobility.com/wp-content/uploads/2021/12/manuals.png?id=126"
-                alt="manuals"
-                fill
-              />
+              <Image src="/images/manuals-home.jpg" alt="manuals" fill />
             </div>
 
             <div className="w-full md:w-[50%] text-center mt-8 md:mt-0">

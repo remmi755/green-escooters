@@ -6,9 +6,7 @@ const Company = () => {
     <div className="mt-20 max-w-[1440px] mx-auto">
       <div className="">
         <Image
-          src={
-            "https://www.jeepurbanemobility.com/wp-content/uploads/2021/12/azienda.png?id=112"
-          }
+          src={"/images/company.jpg"}
           alt="factory"
           layout="responsive"
           width={1920}
@@ -19,9 +17,7 @@ const Company = () => {
       <div className="pb-5  flex">
         <div className="w-1/2">
           <Image
-            src={
-              "https://www.jeepurbanemobility.com/wp-content/uploads/2021/12/logo-jeep-uem.png"
-            }
+            src={"/images/about.jpg"}
             alt="Company"
             layout="responsive"
             width={400}
